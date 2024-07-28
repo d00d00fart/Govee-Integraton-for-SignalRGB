@@ -1,0 +1,58 @@
+{
+  "name": "My Custom Govee Integration",
+  "description": "Integrate (at least 1 specific) Govee device with SignalRGB",
+  "version": "1.0.0",
+  "main": "start.js",
+  "config": {
+    "fields": [
+      {
+        "id": "device_id",
+        "type": "text",
+        "label": "Device ID",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "device_model",
+        "type": "text",
+        "label": "Device Model",
+        "default": "",
+        "required": true
+      }
+    ]
+  }
+}
+
+
+
+{
+  "name": "My Custom Govee Integration",
+  "description": "Integrate (at least 1 specific) Govee device with SignalRGB",
+  "version": "1.0.0",
+  "main": "start.js",
+  "config": {
+    "fields": [
+      {
+        "id": "api_key",
+        "type": "text",
+        "label": "Govee API Key",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "device_id",
+        "type": "text",
+        "label": "Device ID",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "device_model",
+        "type": "text",
+        "label": "Device Model",
+        "default": "",
+        "required": true
+      }
+    ]
+  }
+}
